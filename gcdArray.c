@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//iterative variant through subtraction
 int gcd_diff(int a, int b) {
     while(a!=b) {
       if(a > b) {
@@ -11,6 +12,7 @@ int gcd_diff(int a, int b) {
     return a;
 }
 
+//iterative Euclid
 int gcd_euclid(int a, int b) {
     int r;
     while(b) {
@@ -21,6 +23,7 @@ int gcd_euclid(int a, int b) {
     return a;
 }
 
+//recursive Euclid
 int euclid_rec(int a, int b) {
     if(b == 0) {
       return a;
@@ -29,6 +32,7 @@ int euclid_rec(int a, int b) {
     }
 }
 
+//recursive subtraction
 int gcd_rec(int a, int b) {
     if(a == b) {
       return a;
@@ -40,14 +44,21 @@ int gcd_rec(int a, int b) {
 }
 
 int main() {
+    
+    //declare an array of integers
     int vec[] = {22,4,8,10,1012,72},
+    //determine the length of the array
     n = sizeof(vec)/sizeof(vec[0]), 
+    //let a variable 
     gcd;
 
+    //compute the greatest common divisor from v[0] and v[1]
     gcd = euclid_rec(vec[0],vec[1]);
 
     for(int i = 2; i <= n; ++i) {
+        
       gcd = euclid_rec(gcd, vec[i]);
+        
     }
 
     printf("%d", gcd);
