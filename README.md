@@ -6,3 +6,6 @@
 - a **function** returns a value or values and is called from within an expression.
 - a **procedure** returns no value and is called in a statement not an expression.
 - a **method** is a subroutine defined on an object in an object oriented context.
+
+## Demo
+* https://replit.com/@thinkphp/subroutines
