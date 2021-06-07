@@ -1,5 +1,5 @@
 /*
- Se citesc doua numere naturale m < n; Se cere sa se tipareasca toate numerele palindrom 
+ Se citesc doua numere naturale m < n; Se cere sa se tipareasca toate numerele Superpalindrom 
  aflate intre m si n. Un numar este palindrom daca citit diresc si invers rezultatul este acelasi.
  */
 #include <iostream>
