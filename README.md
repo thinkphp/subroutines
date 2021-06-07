@@ -8,4 +8,14 @@
 - a **method** is a subroutine defined on an object in an object oriented context.
 
 ## Demo
+
 * https://replit.com/@thinkphp/subroutines
+
+1. Greatest Common Divisor Array
+2. Palindrom
+3. SupePalindrom
+4. Suma Cuburi Cifre
+5. Triunghi special
+6. Matrice. Citire. Afisare.
+7. Frecventa Litere Mari
+8. Numere Rotunde
