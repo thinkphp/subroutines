@@ -13,7 +13,7 @@
 
 1. Greatest Common Divisor Array
 2. Palindrom
-3. SupePalindrom
+3. SuperPalindrom
 4. Suma Cuburi Cifre
 5. Triunghi special
 6. Matrice. Citire. Afisare.
